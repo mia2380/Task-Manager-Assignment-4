@@ -1,0 +1,116 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    }
+  
+ h1 {
+    background-color: #212121;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    height: 94%;
+    background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#4d8fd6;
+}
+
+.list {
+    flex: 3;
+    position: relative;
+}
+
+.list h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form {
+    flex: 1;
+    background: rgba(207, 239, 239, 0.732);
+    box-shadow: -12px 7px 0px 0px #8872b1;
+}
+
+.form h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.my-control {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.my-control label {
+    width: 110px;
+    text-align: right;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.my-control input,
+.mycontrol select,
+.mycontrol textarea {
+    flex-grow: 1;
+    padding: 3px 5px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.icon {
+    font-size: 35px;
+    color: #0a0a0a;
+    cursor: pointer;
+}
+
+.fas {
+    color: rgb(245, 12, 206)
+}
+
+#task-list {
+    padding: 15px 30px;
+    margin-top: 10px;
+    color: rgb(11, 11, 11);
+}
+
+#btnHideForm {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.task {
+    border: 3px solid rgb(228, 227, 234);
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(247, 247, 246, 0.45);
+    
+}
+
+.task label {
+    display: block;
+}
+
+.task .head {
+    flex: 3;
+}
+
+.task .middle {
+    flex: 1;
+}
+
+.task .tail {
+    flex: 1;
+}
